@@ -16,6 +16,7 @@ public class CommentDTO {
     public CommentDTO(Long id){
         this.id = id;
     }
+    public CommentDTO(){}
     
     public CommentDTO(Comment comment){
         this.id = comment.getId();

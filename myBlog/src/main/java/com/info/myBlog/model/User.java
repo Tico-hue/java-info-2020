@@ -41,17 +41,20 @@ public class User {
     private String state;
     private String country;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JsonManagedReference(value = "postReference")
     private List<Post> posts = new ArrayList<>();
 
-    @OneToMany(mappedBy = "user_comments", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "user_comment", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JsonManagedReference(value = "commentUser")
     private List<Comment> comments = new ArrayList<>();
 
     public User(Long id){
         this.id = id;
     }
+    public User(){
+    }
+
 
     public Long getId() {
         return id;

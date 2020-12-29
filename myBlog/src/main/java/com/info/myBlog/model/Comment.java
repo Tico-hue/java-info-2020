@@ -33,7 +33,9 @@ public class Comment {
     private LocalDate date = LocalDate.now();
 
     public Comment(){
-        
+    }
+    public Comment(Long id){
+        this.id = id;
     }
 
     public Long getId() {

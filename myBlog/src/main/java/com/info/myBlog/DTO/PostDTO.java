@@ -38,27 +38,32 @@ public class PostDTO {
                 commentDto.getDate())).collect(Collectors.toList());
     }
 
-    public PostDTO(Long id, String title, String description, String body, UserDTO userDTO, LocalDate creationDAte, Boolean published, List<CommentDTO> commentsDTO) {
+    public PostDTO(Long id, String title, String description, String body, UserDTO userDto, LocalDate dateCreated, Boolean published, List<CommentDTO> commentDTO) {
         this.id = id;
         this.title = title;
         this.description = description;
         this.body = body;
-        this.userDTO = userDTO;
-        this.creationDate = creationDate;
+        this.userDTO = userDto;
+        this.creationDate = dateCreated;
         this.published = published;
-        this.commentsDTO = commentsDTO;
+        this.commentsDTO = commentDTO;
     }
 
-    public PostDTO(Long id, String title, String description, String body, UserDTO userDTO, LocalDate creationDate, Boolean published) {
+    public PostDTO(Long id, String title, String description, String body, UserDTO userDto, LocalDate dateCreated, Boolean published) {
         this.id = id;
         this.title = title;
         this.description = description;
         this.body = body;
-        this.userDTO = userDTO;
-        this.creationDate = creationDate;
+        this.userDTO = userDto;
+        this.creationDate = dateCreated;
         this.published = published;
     }
+    
 
+    public PostDTO(){}
+    public PostDTO(Long id){
+        this.id = id;
+    }
     public Long getId() {
         return id;
     }

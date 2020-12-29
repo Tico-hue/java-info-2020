@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface CommentRepository extends JpaRepository<Comment, Long> {
     
-    @Query("FROM Comment c WHERE post_id = ?1 ORDER BY c.date DESC LIMIT ?2")
+    @Query(value="SELECT * FROM Comment c WHERE post_id = ?1 ORDER BY c.date  DESC LIMIT ?2", nativeQuery = true)
     List<Comment>getCommentsFromPost(Long id, Integer number);
 
 }

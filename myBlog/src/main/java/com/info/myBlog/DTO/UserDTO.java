@@ -62,10 +62,12 @@ public class UserDTO {
                 .collect(Collectors.toList());
     }
 
+    public UserDTO(){
+        
+    }
     public UserDTO(Long id){
         this.id = id;
     }
-
     public Long getId() {
         return id;
     }

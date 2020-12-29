@@ -1,0 +1,1074 @@
+{
+	"info": {
+		"_postman_id": "7dae9439-df6f-439d-b277-1ee45bedec5e",
+		"name": "Post",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post Creation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"how to java spring\",\r\n    \"description\":\"here ull learn about java\",\r\n    \"body\":\"java is thi most blabla lorem ipsum\",\r\n    \"author\":10,\r\n    \"dateCreation\":\"2020-12-29\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080//api/v1/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"",
+						"api",
+						"v1",
+						"post"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "User Delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080//api/v1/user/9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"user",
+								"9"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:35:34 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "Post Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"how to java spring\",\r\n    \"description\":\"here ull learn about java\",\r\n    \"body\":\"java is thi most blabla lorem ipsum\",\r\n    \"author\":10,\r\n    \"dateCreation\":\"2020-12-29\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:00:33 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"title\": \"how to java spring\",\n    \"description\": \"here ull learn about java\",\n    \"body\": \"java is thi most blabla lorem ipsum\",\n    \"userDTO\": {\n        \"id\": 10,\n        \"creationDate\": \"2020-12-29\",\n        \"postDTO\": [],\n        \"commentDTO\": []\n    },\n    \"creationDate\": \"2020-12-29\",\n    \"commentsDTO\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "Post Creation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"how to django\",\r\n    \"description\":\"here ull learn about django\",\r\n    \"body\":\"django is thi most blabla lorem ipsum\",\r\n    \"author\":11,\r\n    \"dateCreation\":\"2021-01-12\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080//api/v1/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"",
+						"api",
+						"v1",
+						"post"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Post Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"how to django\",\r\n    \"description\":\"here ull learn about django\",\r\n    \"body\":\"django is thi most blabla lorem ipsum\",\r\n    \"author\":11,\r\n    \"dateCreation\":\"2021-01-12\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:03:38 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 2,\n    \"title\": \"how to django\",\n    \"description\": \"here ull learn about django\",\n    \"body\": \"django is thi most blabla lorem ipsum\",\n    \"userDTO\": {\n        \"id\": 11,\n        \"creationDate\": \"2020-12-29\",\n        \"postDTO\": [],\n        \"commentDTO\": []\n    },\n    \"creationDate\": \"2020-12-29\",\n    \"commentsDTO\": []\n}"
+				},
+				{
+					"name": "Post Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"how to django\",\r\n    \"description\":\"here ull learn about django\",\r\n    \"body\":\"django is thi most blabla lorem ipsum\",\r\n    \"author\":11,\r\n    \"dateCreation\":\"2021-01-12\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:03:38 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 2,\n    \"title\": \"how to django\",\n    \"description\": \"here ull learn about django\",\n    \"body\": \"django is thi most blabla lorem ipsum\",\n    \"userDTO\": {\n        \"id\": 11,\n        \"creationDate\": \"2020-12-29\",\n        \"postDTO\": [],\n        \"commentDTO\": []\n    },\n    \"creationDate\": \"2020-12-29\",\n    \"commentsDTO\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "Post Creation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"how to nodejs\",\r\n    \"description\":\"here ull learn about nodejs Inyecshons(?\",\r\n    \"body\":\"nodejs is thi most blabla lorem ipsum\",\r\n    \"author\":12,\r\n    \"dateCreation\":\"2021-01-12\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080//api/v1/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"",
+						"api",
+						"v1",
+						"post"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Post Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"how to nodejs\",\r\n    \"description\":\"here ull learn about nodejs Inyecshons(?\",\r\n    \"body\":\"nodejs is thi most blabla lorem ipsum\",\r\n    \"author\":12,\r\n    \"dateCreation\":\"2021-01-12\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:05:26 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 3,\n    \"title\": \"how to nodejs\",\n    \"description\": \"here ull learn about nodejs Inyecshons(?\",\n    \"body\": \"nodejs is thi most blabla lorem ipsum\",\n    \"userDTO\": {\n        \"id\": 12,\n        \"creationDate\": \"2020-12-29\",\n        \"postDTO\": [],\n        \"commentDTO\": []\n    },\n    \"creationDate\": \"2020-12-29\",\n    \"commentsDTO\": []\n}"
+				},
+				{
+					"name": "Post Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"how to django\",\r\n    \"description\":\"here ull learn about django\",\r\n    \"body\":\"django is thi most blabla lorem ipsum\",\r\n    \"author\":11,\r\n    \"dateCreation\":\"2021-01-12\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:03:38 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 2,\n    \"title\": \"how to django\",\n    \"description\": \"here ull learn about django\",\n    \"body\": \"django is thi most blabla lorem ipsum\",\n    \"userDTO\": {\n        \"id\": 11,\n        \"creationDate\": \"2020-12-29\",\n        \"postDTO\": [],\n        \"commentDTO\": []\n    },\n    \"creationDate\": \"2020-12-29\",\n    \"commentsDTO\": []\n}"
+				},
+				{
+					"name": "Post Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"how to nodejs\",\r\n    \"description\":\"here ull learn about nodejs Inyecshons(?\",\r\n    \"body\":\"nodejs is thi most blabla lorem ipsum\",\r\n    \"author\":12,\r\n    \"dateCreation\":\"2021-01-12\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:05:26 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 3,\n    \"title\": \"how to nodejs\",\n    \"description\": \"here ull learn about nodejs Inyecshons(?\",\n    \"body\": \"nodejs is thi most blabla lorem ipsum\",\n    \"userDTO\": {\n        \"id\": 12,\n        \"creationDate\": \"2020-12-29\",\n        \"postDTO\": [],\n        \"commentDTO\": []\n    },\n    \"creationDate\": \"2020-12-29\",\n    \"commentsDTO\": []\n}"
+				},
+				{
+					"name": "Post Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"how to django\",\r\n    \"description\":\"here ull learn about django\",\r\n    \"body\":\"django is thi most blabla lorem ipsum\",\r\n    \"author\":11,\r\n    \"dateCreation\":\"2021-01-12\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:03:38 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 2,\n    \"title\": \"how to django\",\n    \"description\": \"here ull learn about django\",\n    \"body\": \"django is thi most blabla lorem ipsum\",\n    \"userDTO\": {\n        \"id\": 11,\n        \"creationDate\": \"2020-12-29\",\n        \"postDTO\": [],\n        \"commentDTO\": []\n    },\n    \"creationDate\": \"2020-12-29\",\n    \"commentsDTO\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "Get All Posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080//api/v1/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"",
+						"api",
+						"v1",
+						"post"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get All Posts",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:06:20 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"how to java spring\",\n        \"description\": \"here ull learn about java\",\n        \"body\": \"java is thi most blabla lorem ipsum\",\n        \"creationDate\": \"2020-12-29\",\n        \"published\": null,\n        \"comments\": []\n    },\n    {\n        \"id\": 2,\n        \"title\": \"how to django\",\n        \"description\": \"here ull learn about django\",\n        \"body\": \"django is thi most blabla lorem ipsum\",\n        \"creationDate\": \"2020-12-29\",\n        \"published\": null,\n        \"comments\": []\n    },\n    {\n        \"id\": 3,\n        \"title\": \"how to nodejs\",\n        \"description\": \"here ull learn about nodejs Inyecshons(?\",\n        \"body\": \"nodejs is thi most blabla lorem ipsum\",\n        \"creationDate\": \"2020-12-29\",\n        \"published\": null,\n        \"comments\": []\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Post Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"how to PYTHON\",\r\n    \"description\":\"here ull learn about PYTHON\",\r\n    \"body\":\"PYTHON is thi most blabla lorem ipsum\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080//api/v1/post/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"",
+						"api",
+						"v1",
+						"post",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Post Update",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"how to PYTHON\",\r\n    \"description\":\"here ull learn about PYTHON\",\r\n    \"body\":\"PYTHON is thi most blabla lorem ipsum\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:13:20 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"title\": \"how to PYTHON\",\n    \"description\": \"here ull learn about PYTHON\",\n    \"body\": \"PYTHON is thi most blabla lorem ipsum\",\n    \"userDTO\": {\n        \"id\": 10,\n        \"name\": \"Lopa\",\n        \"lastName\": \"Jarito\",\n        \"email\": \"pichon123@gmail.com\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"postDTO\": [\n            {\n                \"id\": 1,\n                \"title\": \"how to PYTHON\",\n                \"description\": \"here ull learn about PYTHON\",\n                \"body\": \"PYTHON is thi most blabla lorem ipsum\",\n                \"userDTO\": {\n                    \"id\": 10\n                },\n                \"creationDate\": \"2020-12-29\",\n                \"commentsDTO\": []\n            }\n        ],\n        \"commentDTO\": []\n    },\n    \"creationDate\": \"2020-12-29\",\n    \"commentsDTO\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "Post Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080//api/v1/post/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"",
+						"api",
+						"v1",
+						"post",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Post Delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:14:18 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Get Post by word",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/post/?word=python",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"post",
+						""
+					],
+					"query": [
+						{
+							"key": "word",
+							"value": "python"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Post by word",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/post/?word=python",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"post",
+								""
+							],
+							"query": [
+								{
+									"key": "word",
+									"value": "python"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:15:31 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"how to PYTHON\",\n        \"description\": \"here ull learn about PYTHON\",\n        \"body\": \"PYTHON is thi most blabla lorem ipsum\",\n        \"creationDate\": \"2020-12-29\",\n        \"published\": null,\n        \"comments\": []\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Post not Published Creation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"how to EXPRESS\",\r\n    \"description\":\"here ull learn about REXORESS Inyecshons(?\",\r\n    \"body\":\"EXPRESS is thi most blabla lorem ipsum\",\r\n    \"author\":12,\r\n    \"published\":0,\r\n    \"dateCreation\":\"2021-01-12\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080//api/v1/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"",
+						"api",
+						"v1",
+						"post"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Post not Published Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"how to EXPRESS\",\r\n    \"description\":\"here ull learn about REXORESS Inyecshons(?\",\r\n    \"body\":\"EXPRESS is thi most blabla lorem ipsum\",\r\n    \"author\":12,\r\n    \"published\":false,\r\n    \"dateCreation\":\"2021-01-12\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:19:48 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 4,\n    \"title\": \"how to EXPRESS\",\n    \"description\": \"here ull learn about REXORESS Inyecshons(?\",\n    \"body\": \"EXPRESS is thi most blabla lorem ipsum\",\n    \"userDTO\": {\n        \"id\": 12,\n        \"creationDate\": \"2020-12-29\",\n        \"postDTO\": [],\n        \"commentDTO\": []\n    },\n    \"creationDate\": \"2020-12-29\",\n    \"published\": false,\n    \"commentsDTO\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "Get not Published Posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080//api/v1/post/notPublished",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"",
+						"api",
+						"v1",
+						"post",
+						"notPublished"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get not Published Posts",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post/notPublished",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post",
+								"notPublished"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:25:32 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 4,\n        \"title\": \"how to EXPRESS\",\n        \"description\": \"here ull learn about REXORESS Inyecshons(?\",\n        \"body\": \"EXPRESS is thi most blabla lorem ipsum\",\n        \"creationDate\": \"2020-12-29\",\n        \"published\": false,\n        \"comments\": []\n    },\n    {\n        \"id\": 5,\n        \"title\": \"how to EXPRESS\",\n        \"description\": \"here ull learn about REXORESS Inyecshons(?\",\n        \"body\": \"EXPRESS is thi most blabla lorem ipsum\",\n        \"creationDate\": \"2020-12-29\",\n        \"published\": false,\n        \"comments\": []\n    }\n]"
+				},
+				{
+					"name": "Get not Published Posts",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080//api/v1/post/notPublished",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"post",
+								"notPublished"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 22:25:32 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 4,\n        \"title\": \"how to EXPRESS\",\n        \"description\": \"here ull learn about REXORESS Inyecshons(?\",\n        \"body\": \"EXPRESS is thi most blabla lorem ipsum\",\n        \"creationDate\": \"2020-12-29\",\n        \"published\": false,\n        \"comments\": []\n    },\n    {\n        \"id\": 5,\n        \"title\": \"how to EXPRESS\",\n        \"description\": \"here ull learn about REXORESS Inyecshons(?\",\n        \"body\": \"EXPRESS is thi most blabla lorem ipsum\",\n        \"creationDate\": \"2020-12-29\",\n        \"published\": false,\n        \"comments\": []\n    }\n]"
+				}
+			]
+		}
+	]
+}

@@ -12,10 +12,10 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface PostRepository extends JpaRepository<Post, Long> {
     
-    @Query("FROM Post WHERE title LIKE %:palabra%")
+    @Query("SELECT p FROM Post p WHERE p.title LIKE %:palabra%")
     List<Post>getPostsByWord(@Param("palabra") String palabra);
 
-    @Query("FROM Post WHERE published LIKE 0")
+    @Query("SELECT p FROM Post p WHERE p.published = 0")
     List<Post>getPostsNotPublished();
     
 }

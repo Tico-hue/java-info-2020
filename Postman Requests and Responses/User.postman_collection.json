@@ -1,0 +1,1267 @@
+{
+	"info": {
+		"_postman_id": "2859a94f-05cc-4984-a139-b284d526867c",
+		"name": "User",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User Creation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Mateo\",\r\n    \"lastName\" : \"gomez\",\r\n    \"email\" : \"mateo123@gmail.com\",\r\n    \"password\" : \"gomasdez123123\",\r\n    \"country\" : \"Arg\",\r\n    \"state\" : \"Chaco\",\r\n    \"city\" : \"Resistencia\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "User Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Mateo\",\r\n    \"lastName\" : \"gomez\",\r\n    \"email\" : \"mateo123@gmail.com\",\r\n    \"password\" : \"gomasdez123123\",\r\n    \"country\" : \"Arg\",\r\n    \"state\" : \"Chaco\",\r\n    \"city\" : \"Resistencia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:11:28 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 9,\n    \"name\": \"Mateo\",\n    \"lastName\": \"gomez\",\n    \"email\": \"mateo123@gmail.com\",\n    \"creationDate\": \"2020-12-29\",\n    \"city\": \"Resistencia\",\n    \"state\": \"Chaco\",\n    \"country\": \"Arg\",\n    \"postDTO\": [],\n    \"commentDTO\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "User Creation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Louta\",\r\n    \"lastName\" : \"Ramirez\",\r\n    \"email\" : \"ushush@gmail.com\",\r\n    \"password\" : \"ushushush123\",\r\n    \"country\" : \"Arg\",\r\n    \"state\" : \"CBA\",\r\n    \"city\" : \"cba\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "User Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Louta\",\r\n    \"lastName\" : \"Ramirez\",\r\n    \"email\" : \"ushush@gmail.com\",\r\n    \"password\" : \"ushushush123\",\r\n    \"country\" : \"Arg\",\r\n    \"state\" : \"CBA\",\r\n    \"city\" : \"cba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:19:33 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 11,\n    \"name\": \"Louta\",\n    \"lastName\": \"Ramirez\",\n    \"email\": \"ushush@gmail.com\",\n    \"creationDate\": \"2020-12-29\",\n    \"city\": \"cba\",\n    \"state\": \"CBA\",\n    \"country\": \"Arg\",\n    \"postDTO\": [],\n    \"commentDTO\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "User Creation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Natalia\",\r\n    \"lastName\" : \"Peluche\",\r\n    \"email\" : \"natipel@gmail.com\",\r\n    \"password\" : \"natipel123\",\r\n    \"country\" : \"Arg\",\r\n    \"state\" : \"Baires\",\r\n    \"city\" : \"baires\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "User Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Natalia\",\r\n    \"lastName\" : \"Peluche\",\r\n    \"email\" : \"natipel@gmail.com\",\r\n    \"password\" : \"natipel123\",\r\n    \"country\" : \"Arg\",\r\n    \"state\" : \"Baires\",\r\n    \"city\" : \"baires\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:21:40 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 12,\n    \"name\": \"Natalia\",\n    \"lastName\": \"Peluche\",\n    \"email\": \"natipel@gmail.com\",\n    \"creationDate\": \"2020-12-29\",\n    \"city\": \"baires\",\n    \"state\": \"Baires\",\n    \"country\": \"Arg\",\n    \"postDTO\": [],\n    \"commentDTO\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Users After Date",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/?date=2020-12-29",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						""
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-12-29"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Users After Date",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/?date=2020-12-29",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								""
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-12-29"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:27:06 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[]"
+				},
+				{
+					"name": "Get Users After Date",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/?date=2020-12-29",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								""
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-12-29"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:29:03 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[]"
+				},
+				{
+					"name": "Get Users from Resistencia",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/rcia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"rcia"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:23:56 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 9,\n        \"name\": \"Mateo\",\n        \"lastName\": \"gomez\",\n        \"email\": \"mateo123@gmail.com\",\n        \"password\": \"gomasdez123123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    },\n    {\n        \"id\": 10,\n        \"name\": \"Lopa\",\n        \"lastName\": \"Jarito\",\n        \"email\": \"pichon123@gmail.com\",\n        \"password\": \"pichoncit123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    }\n]"
+				},
+				{
+					"name": "User Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Mateo\",\r\n    \"lastName\" : \"gomez\",\r\n    \"email\" : \"mateo123@gmail.com\",\r\n    \"password\" : \"gomasdez123123\",\r\n    \"country\" : \"Arg\",\r\n    \"state\" : \"Chaco\",\r\n    \"city\" : \"Resistencia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:11:28 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 9,\n    \"name\": \"Mateo\",\n    \"lastName\": \"gomez\",\n    \"email\": \"mateo123@gmail.com\",\n    \"creationDate\": \"2020-12-29\",\n    \"city\": \"Resistencia\",\n    \"state\": \"Chaco\",\n    \"country\": \"Arg\",\n    \"postDTO\": [],\n    \"commentDTO\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Users After Date",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/?date=2020-12-28",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						""
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-12-28"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Users from Resistencia",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/rcia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"rcia"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:23:56 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 9,\n        \"name\": \"Mateo\",\n        \"lastName\": \"gomez\",\n        \"email\": \"mateo123@gmail.com\",\n        \"password\": \"gomasdez123123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    },\n    {\n        \"id\": 10,\n        \"name\": \"Lopa\",\n        \"lastName\": \"Jarito\",\n        \"email\": \"pichon123@gmail.com\",\n        \"password\": \"pichoncit123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    }\n]"
+				},
+				{
+					"name": "Get Users After Date",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/?date=2020-12-28",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								""
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-12-28"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:28:07 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 9,\n        \"name\": \"Mateo\",\n        \"lastName\": \"gomez\",\n        \"email\": \"mateo123@gmail.com\",\n        \"password\": \"gomasdez123123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    },\n    {\n        \"id\": 10,\n        \"name\": \"Lopa\",\n        \"lastName\": \"Jarito\",\n        \"email\": \"pichon123@gmail.com\",\n        \"password\": \"pichoncit123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    },\n    {\n        \"id\": 11,\n        \"name\": \"Louta\",\n        \"lastName\": \"Ramirez\",\n        \"email\": \"ushush@gmail.com\",\n        \"password\": \"ushushush123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"cba\",\n        \"state\": \"CBA\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    },\n    {\n        \"id\": 12,\n        \"name\": \"Natalia\",\n        \"lastName\": \"Peluche\",\n        \"email\": \"natipel@gmail.com\",\n        \"password\": \"natipel123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"baires\",\n        \"state\": \"Baires\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    }\n]"
+				},
+				{
+					"name": "Get Users After Date",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/?date=2020-12-29",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								""
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-12-29"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:27:06 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[]"
+				},
+				{
+					"name": "Get Users After Date",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/?date=2020-12-28",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								""
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-12-28"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:30:28 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 9,\n        \"name\": \"Mateo\",\n        \"lastName\": \"gomez\",\n        \"email\": \"mateo123@gmail.com\",\n        \"password\": \"gomasdez123123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    },\n    {\n        \"id\": 10,\n        \"name\": \"Lopa\",\n        \"lastName\": \"Jarito\",\n        \"email\": \"pichon123@gmail.com\",\n        \"password\": \"pichoncit123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    },\n    {\n        \"id\": 11,\n        \"name\": \"Louta\",\n        \"lastName\": \"Ramirez\",\n        \"email\": \"ushush@gmail.com\",\n        \"password\": \"ushushush123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"cba\",\n        \"state\": \"CBA\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    },\n    {\n        \"id\": 12,\n        \"name\": \"Natalia\",\n        \"lastName\": \"Peluche\",\n        \"email\": \"natipel@gmail.com\",\n        \"password\": \"natipel123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"baires\",\n        \"state\": \"Baires\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    }\n]"
+				},
+				{
+					"name": "User Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Mateo\",\r\n    \"lastName\" : \"gomez\",\r\n    \"email\" : \"mateo123@gmail.com\",\r\n    \"password\" : \"gomasdez123123\",\r\n    \"country\" : \"Arg\",\r\n    \"state\" : \"Chaco\",\r\n    \"city\" : \"Resistencia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:11:28 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 9,\n    \"name\": \"Mateo\",\n    \"lastName\": \"gomez\",\n    \"email\": \"mateo123@gmail.com\",\n    \"creationDate\": \"2020-12-29\",\n    \"city\": \"Resistencia\",\n    \"state\": \"Chaco\",\n    \"country\": \"Arg\",\n    \"postDTO\": [],\n    \"commentDTO\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Users from Resistencia",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user/rcia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user",
+						"rcia"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "User Creation",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Mateo\",\r\n    \"lastName\" : \"gomez\",\r\n    \"email\" : \"mateo123@gmail.com\",\r\n    \"password\" : \"gomasdez123123\",\r\n    \"country\" : \"Arg\",\r\n    \"state\" : \"Chaco\",\r\n    \"city\" : \"Resistencia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:11:28 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 9,\n    \"name\": \"Mateo\",\n    \"lastName\": \"gomez\",\n    \"email\": \"mateo123@gmail.com\",\n    \"creationDate\": \"2020-12-29\",\n    \"city\": \"Resistencia\",\n    \"state\": \"Chaco\",\n    \"country\": \"Arg\",\n    \"postDTO\": [],\n    \"commentDTO\": []\n}"
+				},
+				{
+					"name": "Get Users from Resistencia",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/rcia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"rcia"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:29:27 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 9,\n        \"name\": \"Mateo\",\n        \"lastName\": \"gomez\",\n        \"email\": \"mateo123@gmail.com\",\n        \"password\": \"gomasdez123123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    },\n    {\n        \"id\": 10,\n        \"name\": \"Lopa\",\n        \"lastName\": \"Jarito\",\n        \"email\": \"pichon123@gmail.com\",\n        \"password\": \"pichoncit123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    }\n]"
+				},
+				{
+					"name": "Get Users from Resistencia",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/user/rcia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"user",
+								"rcia"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:23:56 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 9,\n        \"name\": \"Mateo\",\n        \"lastName\": \"gomez\",\n        \"email\": \"mateo123@gmail.com\",\n        \"password\": \"gomasdez123123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    },\n    {\n        \"id\": 10,\n        \"name\": \"Lopa\",\n        \"lastName\": \"Jarito\",\n        \"email\": \"pichon123@gmail.com\",\n        \"password\": \"pichoncit123\",\n        \"creationDate\": \"2020-12-29\",\n        \"city\": \"Resistencia\",\n        \"state\": \"Chaco\",\n        \"country\": \"Arg\",\n        \"posts\": [],\n        \"comments\": []\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "User Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Gabriel\",\r\n    \"lastName\": \"gomez\",\r\n    \"email\": \"mateo123@gmail.com\",\r\n    \"password\": \"gomasdez123123\",\r\n    \"city\": \"Resistencia\",\r\n    \"state\": \"Chaco\",\r\n    \"country\": \"Arg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080//api/v1/user/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"",
+						"api",
+						"v1",
+						"user",
+						"9"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "User Update",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Gabriel\",\r\n    \"lastName\": \"gomez\",\r\n    \"email\": \"mateo123@gmail.com\",\r\n    \"password\": \"gomasdez123123\",\r\n    \"city\": \"Resistencia\",\r\n    \"state\": \"Chaco\",\r\n    \"country\": \"Arg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080//api/v1/user/9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"user",
+								"9"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:34:39 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 9,\n    \"name\": \"Gabriel\",\n    \"lastName\": \"gomez\",\n    \"email\": \"mateo123@gmail.com\",\n    \"creationDate\": \"2020-12-29\",\n    \"city\": \"Resistencia\",\n    \"state\": \"Chaco\",\n    \"country\": \"Arg\",\n    \"postDTO\": [],\n    \"commentDTO\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "User Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080//api/v1/user/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"",
+						"api",
+						"v1",
+						"user",
+						"9"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "User Delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080//api/v1/user/9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"",
+								"api",
+								"v1",
+								"user",
+								"9"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Dec 2020 21:35:34 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
