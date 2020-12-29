@@ -3,7 +3,6 @@ package com.info.myBlog.api;
 import com.info.myBlog.model.Post;
 import com.info.myBlog.service.PostService;
 
-import org.apache.catalina.connector.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -55,7 +54,7 @@ public class PostController {
 
     @GetMapping("/notPublished")
     public ResponseEntity<?> getPostsNotPublished(){
-        return new ResponseEntity<>(postService.getPostsNotPublished(),HttpStatus.OK)
+        return new ResponseEntity<>(postService.getPostsNotPublished(),HttpStatus.OK);
     }
 
 }
