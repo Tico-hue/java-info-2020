@@ -13,5 +13,6 @@ This project is a API REST for a blog application that provides json data for CR
 ## Technologies used
 
 #### Java Spring Boot
+#### Maven
 
 ## Instructions 
